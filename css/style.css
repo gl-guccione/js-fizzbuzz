@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  font-size: 20px;
+  margin: 10px 20px;
+}
+
+.fizzbuzz {
+  color: red;
+}
+
+.fizz {
+  color: blue;
+}
+
+.buzz {
+  color: green;
+}
+
+.number {
+  color: orange;
+  text-decoration: underline;
+}

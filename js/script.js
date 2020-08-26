@@ -17,7 +17,7 @@
 document.getElementById("numbers").innerHTML = "";
 var numbers = "";
 
-for (var i = 0; i < 100; i++) {
+for (var i = 0; i < 100000; i++) {
   var number = i + 1;
   if (number % 3 == 0 && number % 5 == 0) {
     console.log("FizzBuzz");
